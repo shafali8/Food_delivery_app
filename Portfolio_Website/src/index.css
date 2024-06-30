@@ -1,0 +1,57 @@
+:root{
+    --hightlight-color: #5ccfe6;
+    --light-gray-color: #8695b799;
+    --text-color: #a2aabc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+    font-size: 62.5%;
+}
+body{
+    background: #112340;
+    color: snow;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+.btn{
+    padding: 14px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.btnHighlight{
+    color: #5ccfe6;
+    font-weight: bold;
+    transition: 0.5s;
+    overflow: hidden;
+    border-bottom: 2px solid ;
+    border-right: 2px solid;
+
+}
+.btnHighlight:hover{
+    border: none;
+    background-color: #5ccfe6;
+    color: #112340;
+    box-shadow: 0 0 5px #5ccfe6,
+                0 0 25px #5ccfe6,
+                0 0 50px #5ccfe6,
+                0 0 200px #5ccfe6
+}
+ 

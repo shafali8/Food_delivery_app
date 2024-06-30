@@ -1,0 +1,32 @@
+:root{
+    --hightlight-color: #5ccfe6;
+    --light-gray-color: #8695b799;
+    --text-color: #a2aabc;
+}
+nav{
+    width: 100%;
+    background: transparent;
+    padding: 0.4rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo{
+    font-size: 60px;
+    color: #5ccfe6;
+    text-shadow: 2px 3px 5px #5ccfe6, -1px 1px 10px #5ccfe6;
+}
+nav ul li{
+   display: inline-block;
+   font-size: 2rem;
+   margin: 4.2rem 1.5rem;
+   cursor: pointer;
+}
+nav ul li span{
+    color: var(--hightlight-color);
+}
+
